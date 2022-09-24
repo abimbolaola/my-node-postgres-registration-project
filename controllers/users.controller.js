@@ -2,6 +2,7 @@ var Promise = require('promise');
 var config = require('./../config/config');
 var User = require('./../models/user');
 
+
 module.exports = {
   createUser: function(req, res) {
     User.create(req.body)
