@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Node Login/Registration</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/customStyles.css"></link>
+
+  <!-- JS -->
+  <script src="vendor/jquery/dist/jquery.min.js"></script>
+  <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js" integrity="sha384-XXXXXXXX" crossorigin="anonymous"></script>
+  <script src="vendor/angular/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ngStorage/0.3.10/ngStorage.min.js"></script>
+  <script src="vendor/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script src="app/app.modules.js"></script>
+  <script src="app/app.config.js"></script>
+  <script src="app/app.routes.js"></script>
+  <script src="app/common/auth.service.js"></script>
+  <script src="app/common/apiInterceptor.service.js"></script>
+  <script src="app/user/user.service.js"></script>
+  <script src="app/user/login.controller.js"></script>
+  <script src="app/user/user.controller.js"></script>
+  <script src="app/user/userSettings.controller.js"></script>
+</head>
+
+<body ng-app="sampleApp">
+
+  <div class="container">
+
+    <!-- Angular view -->
+    <div ui-view></div>
+    
+      <div class="col-xs-12 m-t-2">
+          <p class="text-xs-center">
+            <a class="text-muted" href="https://github.com/anthonynsimon/node-postgres-registration"><i class="fa fa-github"></i> View on Github</a>
+          </p>
+      </div>
+      
+  </div>
+
+</body>
+
+</html>
