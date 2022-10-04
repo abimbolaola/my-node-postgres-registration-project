@@ -1,6 +1,6 @@
-# Simple Node + Postgres login registration system
+# Node + Postgres login registration system
+#Abimbola Oluwatobiloba
 
-Try it out here: https://node-postgres-registration.herokuapp.com/
 
 This is the Postgres version of my simple implementation of a login/registration system.
 The purpose of this repository is simply to try out Node + Postgres and to test it out Heroku's Postgres.
